@@ -22,11 +22,12 @@ body {
     font-size: 48px;
 }
 /* class = "header h1"; where is class seo?*/
+/* css for .seo is needed because seo is a different color*/
 .header h1 .seo {
     color: #d9dcd6;
 }
-
-.header div {
+/*changed from .header div to .header nav*/
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -34,11 +35,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -50,6 +51,7 @@ a {
 
 p {
     font-size: 16px;
+    display: flex; 
 }
 
 .hero {
@@ -95,7 +97,7 @@ p {
 }
 
 /* condense CSS code for benefit-### h3*/
-.benefit-lead, .benefit-brand, .benefit-cost, h3 {
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -127,13 +129,38 @@ h2{
     font-size: 36px;
 }
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
+
+
+/* added @media queries*/
+
+@media screen and (max-width: 1035px) {
+    /* css goes here */
+    .header div{
+        font-size: 18px;
+    }
+  }  
+
+@media screen (max-width: 1035px) and (max-width: 960px) {
+    /* css goes here */
+    p {
+        font-size: 14px; 
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .header div{
+        font-size: 9px;
+    }
+  }
