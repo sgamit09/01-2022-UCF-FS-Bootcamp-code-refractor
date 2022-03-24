@@ -110,7 +110,7 @@ p {
 }
 
 /* condense CSS code for search, online, social*/
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+#search-engine-optimization, #online-reputation-management, #social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -121,7 +121,7 @@ p {
 }
 
 /* condense css*/
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+#search-engine-optimization img, #online-reputation-management img, #social-media-marketing img {
     max-height: 200px;
 }
 
