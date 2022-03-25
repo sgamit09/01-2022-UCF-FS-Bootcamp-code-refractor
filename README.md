@@ -1,4 +1,4 @@
-# code-refractor homework for UCF Bootcamp 2022
+# Code-Refractor Homework for UCF Bootcamp 2022
 
 ![website demo](assets/images/01-html-css-git-homework-demo.png)
 
