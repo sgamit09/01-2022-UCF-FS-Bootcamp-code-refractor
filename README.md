@@ -1,5 +1,8 @@
 # code-refractor homework for UCF Bootcamp 2022
 
+![website demo](assets/images/01-html-css-git-homework-demo.png)
+
+
 - This homework assignment entails refactoring existing code meaning to improve it without changing what it does.
 
 - Refractoring entails using proper HTML syntax such as "footer", "header", "section" and so on in our index.HTML code. Consolidation of selectors and properties in the CSS code style.css is included as well for the homework. 
